@@ -1,0 +1,9 @@
+{
+	"name": "eazzyworkspace",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "81616bbe-0d31-4607-9fe0-685175a1ea2e",
+		"tenantId": "f38b3e6e-793c-49f9-8207-1087ae98b59b"
+	}
+}
