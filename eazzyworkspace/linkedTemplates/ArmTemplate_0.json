@@ -118,7 +118,7 @@
 			"properties": {
 				"activities": [
 					{
-						"name": "CopyGitSource",
+						"name": "CopyGitHTTPSource",
 						"type": "Copy",
 						"dependsOn": [],
 						"policy": {
