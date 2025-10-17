@@ -10,7 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"folderPath": "*",
+				"fileName": "*.csv",
+				"folderPath": "Performance Assessment",
 				"fileSystem": "bronze1"
 			},
 			"columnDelimiter": ",",
