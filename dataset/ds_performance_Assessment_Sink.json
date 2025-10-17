@@ -1,0 +1,23 @@
+{
+	"name": "ds_performance_Assessment_Sink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_adls_perfomance_Assessment_sink",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "csvfiles",
+				"fileSystem": "bronze1"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
