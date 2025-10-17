@@ -70,7 +70,8 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
-						"folderPath": "*",
+						"fileName": "*.csv",
+						"folderPath": "Performance Assessment",
 						"fileSystem": "bronze1"
 					},
 					"columnDelimiter": ",",
@@ -103,6 +104,7 @@
 						"fileSystem": "landing1"
 					},
 					"columnDelimiter": ",",
+					"compressionCodec": "ZipDeflate",
 					"escapeChar": "\\",
 					"firstRowAsHeader": true,
 					"quoteChar": "\""
@@ -276,7 +278,10 @@
 									"enablePartitionDiscovery": false
 								},
 								"formatSettings": {
-									"type": "DelimitedTextReadSettings"
+									"type": "DelimitedTextReadSettings",
+									"compressionProperties": {
+										"type": "ZipDeflateReadSettings"
+									}
 								}
 							},
 							"sink": {
