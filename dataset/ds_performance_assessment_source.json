@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "anshlamba03/Adventure-Works-Data-Engineering-Project/refs/heads/main/Data/AdventureWorks/*"
+				"relativeUrl": "anshlamba03/Adventure-Works-Data-Engineering-Project/refs/heads/main/Data/AdventureWorks/"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
